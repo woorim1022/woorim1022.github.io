@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!-- 부가적인 테마 -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <style type = "text/css">
+      h2 {color:green; font-size:20; text-align:center;}
+      h1 {text-align:center }
+      h1:before { content: "★"; color: magenta;} 
+      h1:after { content: "★"; color: magenta;}
+    </style>
+    <title>HTML&nbsp;문서&nbsp;기본&nbsp;실습</title>
+  </head>
+  <header><h1>자기소개서</h1></header>
+  <article>
+      <section>
+        
+<div class="list-group">
+  <a href="#" class="list-group-item list-group-item-success">1.김우림은 누구인가</a>
+  <a href="#" class="list-group-item list-group-item-info">2.나의 취미 소개</a>
+  <a href="#" class="list-group-item list-group-item-warning">3.만들고 싶은 서비스</a>
+  <a href="#" class="list-group-item list-group-item-danger">4.나의 시간표</a>
+</div>
+         <h2>김우림은 누구인가</h2>
+         <ol><li>나이 : 24</li>
+             <li>학교 : 숙명여자대학교</li>
+             <li>학과 : 컴퓨터과학전공</li>
+             <li>주소 : 경기도 과천시</li>
+         </ol>
+      </section>
+      <section>
+        <h2>나의&nbsp;취미&nbsp;소개</h2>
+        <p>나의&nbsp;취미는&nbsp;&lt;영화보기&gt;&nbsp;입니다.</br>
+           가장&nbsp;좋아하는&nbsp;영화는&nbsp;코코<sup>1)</sup>&nbsp;입니다.
+        </p>
+        <p>
+          <small><sup>1)</sup>코코란,&nbsp;2017년에&nbsp;개봉한&nbsp;디즈니&nbsp;애니메이션이다.</br>
+                 영화의&nbsp;배경은&nbsp;멕시코이다.
+          </small>
+        </p>
+      </section>
+      <section>
+        <hr/>
+         <h2>만들고 싶은 서비스</h2>
+      <p>소개 : 미술관, 박물관들의 오디오 가이드 종합 자료 웹 서비스. 원하는 작품의 원하는 정보의 오디오 가이드를 개인 기기에 직접 다운로드 할 수 있고, 추가적으로 원하는 정보가 있는 경우 이에 대한 오디오 가이드를 직접 요청도 할 수 있는 서비스 입니다. 또한 사용자가 기존 자료에 대해 수정하고 싶은 부분이 있거나 새로 추가하고 싶은 정보가 있으면 위키피디아 처럼 이를 업로드 하고, 적합한 정보인지 심사를 거쳐 다시 오디오 가이드 자료로 제작하기도 하는 사용자 참여형 서비스입니다.</p>
+      <p>서비스를 생각하게 된 동기 :  겨울에 유럽을 여행하면서 예술작품을 감상하는 것에 처음으로 재미를 느꼈습니다. 한국에서 전시회에 갔을때는 작품을 눈으로만 훑듯이 구경 해서 지루했던 반면, 유럽에서는 일일투어와 오디오 가이드를 통해 작품에 대한 해설과 뒷이야기 등을 들으며 감상했기 때문입니다. 설명을 듣고 나자 작품을 감상할때 그 위대함에 감탄을 하기도 하였고 설명을 듣지 않았다면 발견하지 못했을 디테일들도 발견할 수 있었습니다. 아는 만큼 보인다 라는 말이 무슨 의미인지 절실히 느낄 수 있었던 경험이었습니다.
+ 하지만 기존의 서비스 방식으로는 작품에 대한 정보를 제한적으로밖에 얻을 수 없다는 생각이 들었습니다. 또한 오직 투어 가이드님, 또는 오디오 가이드 기기가 제공하는 정보만을 얻을 수 있다는 점, 원하는 정보만을 선택적으로 얻을 수는 없다는 점이 아쉬웠습니다. 이에 사용자가 원하는 오디오 가이드를 직접 다운받을 수 있는 서비스를 생각하게 되었습니다.</p>
+       <p>서비스 목표 : 미술관 또는 박물관에 가기 전에 원하는 작품의 원하는 정보의 오디오 가이드를 미리 준비해 가서 예술 작품을 최대한으로 즐길 수 있게 하는 것이 이 서비스의 목표입니다.</p>
+        <h2>나의&nbsp;시간표</h2>
+        <table border="1">
+          <tr>
+            <th>교시</th>
+            <th>월</th>
+            <th>화</th>
+            <th>수</th>
+            <th>목</th> 
+            <th>금</th> 
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>윈도우프로그래밍</td>
+            <td rowspan="2">임베디드시스템</td>
+            <td>윈도우프로그래밍</td>
+            <td rowspan="2">임베디드시스템</td>   
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>컴파일러</td>
+            <td>컴파일러</td> 
+          </tr>
+          <tr>
+            <td>3</td>
+            <td colspan="4">점심식사</td> 
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>기초통계학1</td>
+            <td>빅데이터분석</td>
+            <td>기초통계학1</td>
+            <td>빅데이터분석</td>   
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>웹프로그래밍기초</td>
+            <td></td>
+            <td>웹프로그래밍기초</td>
+            <td></td>  
+            <br>
+            <br> 
+          </tr>
+      </section>
+  <article>
+ 
+     
+</html>
+
